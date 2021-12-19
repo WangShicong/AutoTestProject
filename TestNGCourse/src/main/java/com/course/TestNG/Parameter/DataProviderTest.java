@@ -8,6 +8,7 @@ import java.lang.reflect.Method;
 // TestNG参数化测试————DataProvider参数化
 public class DataProviderTest {
 
+    //第一种
     @Test(dataProvider = "data")
     public void testDataProvider(String name,int age){
         System.out.println("name=" + name + ";  " + "age=" + age);
@@ -25,6 +26,7 @@ public class DataProviderTest {
         return obj;
     }
 
+    //第二种
     //DataProvider支持根据方法名来进行参数传递
     @Test(dataProvider = "MethodData")
     public void test1(String name,int age){
