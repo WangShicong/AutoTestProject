@@ -4,6 +4,7 @@ import org.testng.annotations.AfterGroups;
 import org.testng.annotations.BeforeGroups;
 import org.testng.annotations.Test;
 
+// 组测试————方法分组
 public class GroupsOnMethod {
 
     @Test(groups = "server")

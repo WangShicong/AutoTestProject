@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite name="suiteName">
+    // 组测试————类分组(通过执行xml文件来执行相应类分组)
+    <test  name="runAll">
+        <classes>
+            <class name="com.course.TestNG.Groups.GroupsOnClass1"/>
+            <class name="com.course.TestNG.Groups.GroupsOnClass2"/>
+            <class name="com.course.TestNG.Groups.GroupsOnClass3"/>
+        </classes>
+    </test>
+
+    //只运行stu组的内容
+    <test name="onlyRunStu">
+        <groups>
+            <run>
+                <include name="stu"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.course.TestNG.Groups.GroupsOnClass1"/>
+            <class name="com.course.TestNG.Groups.GroupsOnClass2"/>
+            <class name="com.course.TestNG.Groups.GroupsOnClass3"/>
+        </classes>
+    </test>
+</suite>

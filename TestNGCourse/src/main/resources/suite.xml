@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+
 <suite name = "test">
+    // 组测试————类分组(通过执行xml文件来执行相应测试套件)
     <test name="login">
         <classes>
             <class name = "com.course.TestNG.Suite.SuiteConfig"/>

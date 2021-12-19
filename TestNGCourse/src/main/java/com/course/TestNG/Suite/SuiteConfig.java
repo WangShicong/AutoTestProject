@@ -5,6 +5,8 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 
+// 套件测试
+// 通过xml文件统一执行
 //写测试套件之前需要运行的方法（一些共有的东西）
 public class SuiteConfig {
     @BeforeSuite

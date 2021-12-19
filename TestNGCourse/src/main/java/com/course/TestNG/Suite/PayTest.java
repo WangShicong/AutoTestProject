@@ -1,7 +1,8 @@
 package com.course.TestNG.Suite;
 
 import org.testng.annotations.Test;
-
+// 套件测试
+// 通过xml文件统一执行
 public class PayTest {
     @Test
     public void PaySuccess(){

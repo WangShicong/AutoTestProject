@@ -2,6 +2,7 @@ package com.course.TestNG;
 
 import org.testng.annotations.Test;
 
+// 忽略测试（控制哪些方法不要执行）
 public class IgnoreTest {
     @Test
     public void ignore1(){
