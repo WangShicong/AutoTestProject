@@ -1,7 +1,7 @@
 package com.course.TestNG;
 
 import org.testng.annotations.Test;
-
+//超时测试
 public class TimeOutTest {
 //线程睡眠时间为2s，但线程超时时间为3s，则成功。
     @Test(timeOut = 3000) // 单位为毫秒。

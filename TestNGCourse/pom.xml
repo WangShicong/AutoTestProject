@@ -6,7 +6,11 @@
 
     <groupId>com.course.code</groupId>
     <artifactId>TestNGCourse</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>TestReportCourse</module>
+    </modules>
     <dependencies>
         <dependency>
             <groupId>org.testng</groupId>
