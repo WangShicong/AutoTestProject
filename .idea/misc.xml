@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/AutoTestCourse/pom.xml" />
         <option value="$PROJECT_DIR$/TestNGCourse/pom.xml" />
+        <option value="$PROJECT_DIR$/TestReportCourse/pom.xml" />
       </list>
     </option>
   </component>

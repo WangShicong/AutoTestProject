@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/AutoTestProject.iml" filepath="$PROJECT_DIR$/.idea/AutoTestProject.iml" />
-      <module fileurl="file://$PROJECT_DIR$/AutoTestCourse/TestNGCourse.iml" filepath="$PROJECT_DIR$/AutoTestCourse/TestNGCourse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestNGCourse/TestNGCourse.iml" filepath="$PROJECT_DIR$/TestNGCourse/TestNGCourse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestReportCourse/TestReportCourse.iml" filepath="$PROJECT_DIR$/TestReportCourse/TestReportCourse.iml" />
     </modules>
   </component>
 </project>
