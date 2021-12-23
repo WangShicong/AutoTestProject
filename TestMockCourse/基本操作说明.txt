@@ -1,0 +1,10 @@
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 8888 -c startup1.json
+
+java + -jar + jar包路径 + server type + -p + 端口号 + -c + 写的json的配置文件
+
+端口被占用
+sudo lsof -i:8899
+sudo kill -9 39612
+
+get请求，参数为queries
+post请求，参数为forms
