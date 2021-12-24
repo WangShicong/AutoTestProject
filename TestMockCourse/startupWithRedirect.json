@@ -1,0 +1,25 @@
+[
+  {
+    "description": "这是模拟一个重定向的请求",
+    "request": {
+      "uri": "/redirect"
+    },
+    "redirectTo": "http://www.baidu.com"
+  },
+  {
+    "description": "这是模拟一个重定向到自己的网页上（重定向一般都用get，但post也可以）",
+    "request": {
+      "uri": "/redirect/topath"
+    },
+    "redirectTo": "/redirect/new"
+  },
+  {
+    "description": "这是被重定向到的请求",
+    "request": {
+      "uri": "/redirect/new"
+    },
+    "response": {
+      "text": "这是我自己写的重定向网页哦！！！"
+    }
+  }
+]
