@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="TestHttpClientCourse" />
+        <module name="HTTPClientTest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="AutoTestProject" target="1.5" />
       <module name="Chapter" target="8" />
+      <module name="HTTPClientTest" target="8" />
       <module name="TestHttpClientCourse" target="8" />
       <module name="TestNGCourse" target="1.5" />
       <module name="TestReportCourse" target="1.5" />

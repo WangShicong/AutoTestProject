@@ -12,5 +12,6 @@
     <modules>
         <module>TestReportCourse</module>
         <module>TestHttpClientCourse</module>
+        <module>HTTPClientTest</module>
     </modules>
 </project>
