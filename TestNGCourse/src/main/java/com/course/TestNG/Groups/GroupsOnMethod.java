@@ -4,7 +4,7 @@ import org.testng.annotations.AfterGroups;
 import org.testng.annotations.BeforeGroups;
 import org.testng.annotations.Test;
 
-// 组测试————方法分组
+// 组测试————方法分组，将很多测试方法归到某个组中（把方法级别分组）
 public class GroupsOnMethod {
 
     @Test(groups = "server")

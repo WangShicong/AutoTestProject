@@ -3,10 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/AutoTestProject.iml" filepath="$PROJECT_DIR$/.idea/AutoTestProject.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HTTPClientTest/HTTPClientTest.iml" filepath="$PROJECT_DIR$/HTTPClientTest/HTTPClientTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestHttpClientCourse/TestHttpClientCourse.iml" filepath="$PROJECT_DIR$/TestHttpClientCourse/TestHttpClientCourse.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestNGCourse/TestNGCourse.iml" filepath="$PROJECT_DIR$/TestNGCourse/TestNGCourse.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestReportCourse/TestReportCourse.iml" filepath="$PROJECT_DIR$/TestReportCourse/TestReportCourse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestSpringBoot/TestSpringBoot.iml" filepath="$PROJECT_DIR$/TestSpringBoot/TestSpringBoot.iml" />
     </modules>
   </component>
 </project>
